@@ -19,7 +19,7 @@
   // Pokémon affiché par défaut au chargement de la page.
   // Change ce nom si tu veux un autre Pokémon de départ.
   // Mets null ou '' pour ne pas charger de Pokémon par défaut.
-  const DEFAULT_POKEMON = "Gruikui";
+  const DEFAULT_POKEMON = "arceus";
   // =====================================================
 
   // URL de base de l'API Pokémon
@@ -193,7 +193,7 @@
       // Si autre erreur HTTP
       if (!response.ok) {
         throw new Error(
-          "Erreur de connexion ou Pokémon introuvable. Réessaie plus tard.",
+          "OH écris mieux comment tu veux que je te trouve le Pokémon ? ps: jtm quand même <3",
         );
       }
 
